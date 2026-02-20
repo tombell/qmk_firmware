@@ -276,10 +276,6 @@ bool im_mm_rgb_blink_hook_user(uint8_t index, mm_linker_rgb_t state) {
 
 // Advanced RGB matrix indicators for caps lock, charging, and GUI disable
 bool rgb_matrix_indicators_advanced_user(uint8_t led_min, uint8_t led_max) {
-    if (host_keyboard_led_state().caps_lock) {
-        rgb_matrix_set_color(38, 0xff, 0xff, 0xff);
-    }
-
     if (!battery_chrg_flag && !full_flag) {
         if (bat_status != BAT_CHRGING) bts_send_vendor(v_bat_charging);
 
@@ -287,10 +283,6 @@ bool rgb_matrix_indicators_advanced_user(uint8_t led_min, uint8_t led_max) {
 
         chrg_flag  = true;
         bat_status = BAT_CHRGING;
-    }
-
-    if (confinfo.no_gui) {
-        rgb_matrix_set_color(4, 0xff, 0xff, 0xff);
     }
 
     return true;

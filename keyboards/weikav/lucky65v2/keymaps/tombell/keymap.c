@@ -27,7 +27,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     //  ┣━━━━━━━━╋━━━━━━━━╋━━━━━━━━╋━━━━━━━━╋━━━━━━━━╋━━━━━━━━╋━━━━━━━━┫━━━━━━━━╋━━━━━━━━╋━━━━━━━━╋━━━━━━━━╋━━━━━━━━┻━━━━━━━━┳━━━━━━━━╋━━━━━━━━┫
           KC_TRNS, KC_VOLD, KC_MUTE, KC_VOLU, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,     KC_TRNS,      RM_VALU, RM_HUED,
     //  ┣━━━━━━━━╋━━━━━━━━╋━━━━━━━━╋━━━━━━━━┻━━━━━━━━┻━━━━━━━━┻━━━━━━━━┻━━━━━━━━┻━━━━━━━━┻━━━━━━━━╋━━━━━━━━╋━━━━━━━━┳━━━━━━━━╋━━━━━━━━╋━━━━━━━━┫
-          KC_TRNS, KC_TRNS, KC_TRNS,                   IM_BATQ, IM_BATQ, IM_BATQ,                   KC_TRNS, KC_TRNS, RM_SPDD, RM_VALD, RM_SPDU
+          KC_TRNS, KC_TRNS, KC_TRNS,                   KC_TRNS, KC_TRNS, KC_TRNS,                   KC_TRNS, KC_TRNS, RM_SPDD, RM_VALD, RM_SPDU
     //  ┗━━━━━━━━┻━━━━━━━━┻━━━━━━━━┻━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━┻━━━━━━━━┻━━━━━━━━┻━━━━━━━━┻━━━━━━━━┛
     ),
 };
